@@ -1,0 +1,4 @@
+/home/bobo/code/g2o_exmaples/build/src/CMakeFiles/ba_example.dir
+/home/bobo/code/g2o_exmaples/build/src/CMakeFiles/gicp_demo.dir
+/home/bobo/code/g2o_exmaples/build/src/CMakeFiles/icp_example.dir
+/home/bobo/code/g2o_exmaples/build/src/CMakeFiles/simple_optimize.dir
