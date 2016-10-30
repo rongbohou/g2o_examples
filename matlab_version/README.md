@@ -1,5 +1,5 @@
-graphslam
-=========
+graphslam (2D pose graph)
+=========================
 
 graphslam is an optimization-based SLAM algorithm.
 It describes the SLAM problem using a graph, which is type of bayesian network.
@@ -11,4 +11,7 @@ The original Octave version can be found [here]
 (http://www.dis.uniroma1.it/~grisetti/teaching/lectures-ls-slam-master/web/lectures/practicals/ls-slam.tgz)
 
 All the license information is included in lsslam folder.
+
+
+
 
