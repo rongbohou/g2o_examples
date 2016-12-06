@@ -140,7 +140,7 @@ int main( int argc, char** argv )
     optimizer.initializeOptimization();
     optimizer.optimize(10);
     cout<<"优化完毕"<<endl;
-    
+    cout<<g2o::SE3Quat()<<endl;
     //我们比较关心两帧之间的变换矩阵
     g2o::VertexSE3Expmap* v = dynamic_cast<g2o::VertexSE3Expmap*>( optimizer.vertex(1) );
     Eigen::Isometry3d pose = v->estimate();

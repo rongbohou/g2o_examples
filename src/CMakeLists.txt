@@ -1,7 +1,7 @@
 # CMake 工程，读者应该熟悉了，我就不一一注释了
 cmake_minimum_required( VERSION 2.8 )
 
-set( CMAKE_BUILD_TYPE Release )
+#set( CMAKE_BUILD_TYPE Release )
 set( CMAKE_CXX_FLAGS "-std=c++11 -Wall -O2 -march=native" )
 
 list( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
@@ -60,7 +60,7 @@ ADD_EXECUTABLE( icp_example icp.cpp)
 TARGET_LINK_LIBRARIES( icp_example
          ${CHOLMOD_LIBRARIES}
          ${CSPARSE_LIBRARY}
-          ${OpenCV_LIBS}
+         ${OpenCV_LIBS}
          ${PCL_LIBRARIES}
          ${G2O_LIBS}
 #          g2o_core g2o_types_slam3d g2o_solver_csparse g2o_stuff g2o_csparse_extension
